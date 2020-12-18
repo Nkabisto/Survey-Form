@@ -2,6 +2,8 @@ body{
 	font-family: Arial, sans-serif;
 	font-size: 1em;
 	line-height: 1.5em;
+	color: #FFFFFF;
+	background:radial-gradient(circle,#552277,#000000);
 }
 h1#title{
 	margin-top: 3em;
@@ -22,6 +24,8 @@ form#survey-form{
 	border: solid thin black;
 	height: auto;
 	box-sizing: border-box;
+	color:#FFFFFF;
+	background:repeating-radial-gradient(circle,#000000,#DD6600,#000000 5px);
 }
 label.improve{
 	margin-left: 10px;
@@ -32,7 +36,7 @@ label.improve{
 	height: 3em;
 }
 #submit{
-	background-color: #00FF60;
+	background-color: #552277;
 	color:#FFFFFF;
 	font-weight: bold;
 	border-radius: 2%;
